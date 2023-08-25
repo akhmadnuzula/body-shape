@@ -3,6 +3,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Images from "./components/Images";
 import Flip from "react-reveal/Flip";
+import RotateLeftIcon from "@mui/icons-material/RotateLeft";
 
 function Survey() {
   const [input, setInput] = useState("");
@@ -180,6 +181,7 @@ function Survey() {
 
   const handleClick = (pilih) => {
     const newInput = `${input}${pilih}`;
+    console.log(newInput);
     setInput(newInput);
     setAnimate(false);
     if (newInput.length === 6) {
@@ -200,12 +202,7 @@ function Survey() {
           console.log(err);
         });
     } else {
-      const findRows = rows.find(
-        (item) => item.tag && item.tag.includes(newInput)
-      );
-      if (findRows) {
-        setShow(findRows);
-      }
+      fineData(newInput);
       setTimeout(() => {
         setAnimate(true);
       }, 1000);
@@ -223,6 +220,33 @@ function Survey() {
     }, 1000);
   };
 
+  const handleBack = () => {
+    setAnimate(false);
+    setTimeout(() => {
+      const newInput = input.slice(0, -1);
+      console.log(newInput);
+      setInput(newInput);
+      if (newInput.length > 0) {
+        console.log("ada isinya");
+        fineData(newInput);
+      } else {
+        console.log("kosong");
+        handleNew();
+      }
+      setAnimate(true);
+    }, 1000);
+  };
+
+  const fineData = (text) => {
+    const findRows = rows.find(
+      (item) => item.tag && item.tag.includes(text.toString())
+    );
+    console.log(findRows);
+    if (findRows) {
+      setShow(findRows);
+    }
+  };
+
   return (
     <Grid
       sx={{
@@ -230,8 +254,8 @@ function Survey() {
         justifyContent: "center",
         mt: 3,
       }}>
-      {show !== null && (
-        <Stack>
+      <Stack>
+        {show !== null && (
           <Flip left when={animate}>
             <Images src={show.iamge} alt={show.pertanyaan} />
             <Grid
@@ -256,10 +280,8 @@ function Survey() {
               </Button>
             </Grid>
           </Flip>
-        </Stack>
-      )}
-      {hasil !== null && (
-        <Stack>
+        )}
+        {hasil !== null && (
           <Flip left when={animate}>
             <Images
               src={`${process.env.REACT_APP_BASE_URL}/bodyshape/${hasil.body_shape_image}`}
@@ -274,12 +296,26 @@ function Survey() {
                 p: 2,
               }}>
               <Button variant="contained" onClick={() => handleNew()}>
-                Hitung Lagi
+                Coba Lagi
               </Button>
             </Grid>
           </Flip>
-        </Stack>
-      )}
+        )}
+        <Grid sx={{ display: "flex", justifyContent: "center" }}>
+          {input.length > 0 && (
+            <Flip left when={animate}>
+              <Button
+                variant="text"
+                size="small"
+                color="primary"
+                onClick={() => handleBack()}>
+                <RotateLeftIcon />
+                Kembali ke pertanyaan sebelumnya
+              </Button>
+            </Flip>
+          )}
+        </Grid>
+      </Stack>
     </Grid>
   );
 }
