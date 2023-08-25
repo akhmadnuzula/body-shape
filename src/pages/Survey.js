@@ -4,6 +4,11 @@ import React, { useEffect, useState } from "react";
 import Images from "./components/Images";
 import Flip from "react-reveal/Flip";
 import RotateLeftIcon from "@mui/icons-material/RotateLeft";
+import Haourglass from "./components/Haourglass";
+import Rectangle from "./components/Rectangle";
+import Pear from "./components/Pear";
+import InvertedTriangle from "./components/InvertedTriangle";
+import Aple from "./components/Aple";
 
 function Survey() {
   const [input, setInput] = useState("");
@@ -315,6 +320,17 @@ function Survey() {
             </Flip>
           )}
         </Grid>
+        {hasil && (
+          <>
+            {hasil.body_shape_name === "Hourglass Body Shape" && <Haourglass />}
+            {hasil.body_shape_name === "Rectangle Body Shape" && <Rectangle />}
+            {hasil.body_shape_name === "Pear Body Shape" && <Pear />}
+            {hasil.body_shape_name === "Inverted Triangle Body Shape" && (
+              <InvertedTriangle />
+            )}
+            {hasil.body_shape_name === "Apple Body Shape" && <Aple />}
+          </>
+        )}
       </Stack>
     </Grid>
   );
