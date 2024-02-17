@@ -38,8 +38,8 @@ const rows = [
       "Pinggang kamu lebih besar daripada bagian tubuh yang lainnya ?",
     iamge: `${process.env.REACT_APP_BASE_URL}/survey/3a.png`,
     jawaban: [
-      { pilih: "Pinggul nih", score: "0" },
-      { pilih: "Pinggul nih", score: "1" },
+      { pilih: "Tidak juga", score: "0" },
+      { pilih: "Iya nih", score: "1" },
     ],
     tag: ["00", "01"],
   },
