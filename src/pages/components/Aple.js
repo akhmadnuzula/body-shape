@@ -8,58 +8,26 @@ function Aple() {
         <Typography variant="h5">Rekomendasi Aple Body Shape</Typography>
       </Grid>
       <Grid item xs={12}>
-        <Typography variant="h6">1. Wide Leg</Typography>
+        <Typography variant="h6">1. Mairaa Sabrina Dress</Typography>
       </Grid>
       <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/wide-leg-1.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Sabrina Dress11.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/wide-leg-2.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Sabrina Dress12.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/wide-leg-3.jpeg`}
-            alt=""
-            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
-          />
-        </Grid>
-      </Grid>
-      {/* <Grid item xs={12}>
-        <Typography>
-          Pilih atasan dengan potongan leher V untuk membantu memanjangkan
-          penampilan leher dan memberikan keseimbangan pada bagian atas tubuh.
-        </Typography>
-      </Grid> */}
-      <Grid item xs={12}>
-        <Typography variant="h6">2. Tunic Dress</Typography>
-      </Grid>
-      <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
-        <Grid item xs={4}>
-          <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/tunic-dress-1.jpeg`}
-            alt=""
-            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
-          />
-        </Grid>
-        <Grid item xs={4}>
-          <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/tunic-dress-2.jpeg`}
-            alt=""
-            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
-          />
-        </Grid>
-        <Grid item xs={4}>
-          <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/tunic-dress-3.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Sabrina Dress13.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
@@ -67,32 +35,33 @@ function Aple() {
       </Grid>
       <Grid item xs={12}>
         <Typography>
-          Dress dengan potongan empire waist (pinggang di bawah dada) dapat
-          menjadi pilihan yang baik. Potongan ini akan memberikan aksen pada
-          bagian dada dan menjauhkan perhatian dari bagian perut.
+          Meski bentuk tubuh apel sering disarankan untuk mengenakan pakaian
+          yang menonjolkan kaki atau memperpanjang torso, gaun ini dapat bekerja
+          dengan baik asalkan bagian tengah gaun tidak terlalu ketat dan bagian
+          bawah cukup longgar untuk memberikan kenyamanan.
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <Typography variant="h6">3. Warp Top</Typography>
+        <Typography variant="h6">2. Mairaa One Set</Typography>
       </Grid>
       <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/warp-top-1.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/One Set11.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/warp-top-2.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/One Set12.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/warp-top-3.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/One Set13.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
@@ -100,9 +69,76 @@ function Aple() {
       </Grid>
       <Grid item xs={12}>
         <Typography>
-          Wrap dress atau wrap top akan membantu menciptakan ilusi pinggang yang
-          lebih ramping. Pilihlah model dengan potongan yang sesuai dengan gaya
-          pribadi Anda.
+          Bagi mereka dengan bentuk tubuh apel, atasan ini bisa membantu
+          menyeimbangkan proporsi tubuh, terutama jika memiliki detail kancing
+          atau lipatan yang dapat mengalihkan perhatian dari bagian tengah
+          tubuh.
+        </Typography>
+      </Grid>
+      <Grid item xs={12}>
+        <Typography variant="h6">3. Mairaa Tunic Dress</Typography>
+      </Grid>
+      <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Tunic Dress11.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Tunic Dress12.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Tunic Dress13.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+      </Grid>
+      <Grid item xs={12}>
+        <Typography>
+          Gaun ini dapat memberikan tampilan yang seimbang dengan menonjolkan
+          kaki dan menutupi bagian tengah tubuh. Potongan lurus gaun ini juga
+          membantu menciptakan ilusi panjang yang lebih.
+        </Typography>
+      </Grid>
+      <Grid item xs={12}>
+        <Typography variant="h6">4. Zoey Knitt Dress</Typography>
+      </Grid>
+      <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Zoey Knitt Dress11.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Zoey Knitt Dress12.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Zoey Knitt Dress13.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+      </Grid>
+      <Grid item xs={12}>
+        <Typography>
+          Gaun ini dapat memberikan tampilan yang seimbang dengan menonjolkan
+          kaki dan menutupi bagian tengah tubuh. Potongan lurus gaun ini juga
+          membantu menciptakan ilusi panjang yang lebih.
         </Typography>
       </Grid>
     </Grid>

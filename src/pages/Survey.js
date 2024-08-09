@@ -15,7 +15,7 @@ const rows = [
   {
     id: "1a",
     pertanyaan: "Lebih ramping mana Pinggangmu atau Pinggulmu ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/1a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q1.png`,
     jawaban: [
       { pilih: "Pinggul nih", score: "0" },
       { pilih: "Pinggang nih", score: "1" },
@@ -25,7 +25,7 @@ const rows = [
   {
     id: "2a",
     pertanyaan: "Kamu memiliki bahu yang lebar ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/2a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q2.png`,
     jawaban: [
       { pilih: "Tidak juga", score: "0" },
       { pilih: "Iya nih", score: "1" },
@@ -36,7 +36,7 @@ const rows = [
     id: "3a",
     pertanyaan:
       "Pinggang kamu lebih besar daripada bagian tubuh yang lainnya ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/3a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q3.png`,
     jawaban: [
       { pilih: "Tidak juga", score: "0" },
       { pilih: "Iya nih", score: "1" },
@@ -46,7 +46,7 @@ const rows = [
   {
     id: "4a",
     pertanyaan: "Lebih lebar mana nih Bahumu atau Pinggulmu ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/4a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q4.png`,
     jawaban: [
       { pilih: "Pinggul nih", score: "0" },
       { pilih: "Bahu nih", score: "1" },
@@ -57,7 +57,7 @@ const rows = [
     id: "5a",
     pertanyaan:
       "Kamu jarang beli atasan karena ukurannya ketat dibagian bahu dan dada ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/5a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q5.png`,
     jawaban: [
       { pilih: "Tidak nih", score: "0" },
       { pilih: "Iya nih", score: "1" },
@@ -82,9 +82,9 @@ const rows = [
     id: "6a",
     pertanyaan:
       "Kamu lebih suka mengenakan atasan berlengan pendek karena, mengenakan atasan berlengan panjang membuatmu terlihat berisi ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/6a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q6.png`,
     jawaban: [
-      { pilih: "Tidak nih", score: "0" },
+      { pilih: "Tidak juga", score: "0" },
       { pilih: "Iya nih", score: "1" },
     ],
     tag: [
@@ -110,7 +110,7 @@ const rows = [
   {
     id: "7a",
     pertanyaan: "Lebih lebar mana nih Pinggang kamu atau Pinggul kamu ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/7a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q7.png`,
     jawaban: [
       { pilih: "Pinggul nih", score: "0" },
       { pilih: "Pinggang nih", score: "1" },
@@ -121,7 +121,7 @@ const rows = [
     id: "8a",
     pertanyaan:
       "Berat badanmu bertambah secara merata ke seluruh tubuh, tidak hanya di sekitar perut atau paha ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/8a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q8.png`,
     jawaban: [
       { pilih: "Tidak nih", score: "0" },
       { pilih: "Iya nih", score: "1" },
@@ -132,7 +132,7 @@ const rows = [
     id: "9a",
     pertanyaan:
       "Lenganmu cenderung lebih besar daripada bagian tubuh lainnya ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/9a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q9.png`,
     jawaban: [
       { pilih: "Tidak nih", score: "0" },
       { pilih: "Iya nih", score: "1" },
@@ -143,7 +143,7 @@ const rows = [
     id: "10a",
     pertanyaan:
       "Setiap kamu membeli celana, sering kali terasa longgar dibagian paha dan pinggul ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/10a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q10.png`,
     jawaban: [
       { pilih: "Tidak nih", score: "0" },
       { pilih: "Iya nih", score: "1" },
@@ -153,7 +153,7 @@ const rows = [
   {
     id: "11a",
     pertanyaan: "Pinggul dan paha kamu lebih besar dibandingkan yang lainnya?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/11a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q11.png`,
     jawaban: [
       { pilih: "Tidak nih", score: "0" },
       { pilih: "Iya nih", score: "1" },
@@ -164,7 +164,7 @@ const rows = [
     id: "12a",
     pertanyaan:
       "Kamu cenderung membeli atasan yang lebih kecil dibandingkan celana kamu ( misal S vs L ) ?",
-    iamge: `${process.env.REACT_APP_BASE_URL}/survey/12a.png`,
+    iamge: `${process.env.REACT_APP_BASE_URL}/survey/Q12.png`,
     jawaban: [
       { pilih: "Tidak nih", score: "0" },
       { pilih: "Iya nih", score: "1" },

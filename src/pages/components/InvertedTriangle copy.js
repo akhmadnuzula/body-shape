@@ -10,26 +10,26 @@ function InvertedTriangle() {
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <Typography variant="h6">1. Alice Dress</Typography>
+        <Typography variant="h6">1. V-Neck Blouse</Typography>
       </Grid>
       <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Alice Dress11.png`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/v-neck-1.jpeg`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Alice Dress12.png`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/v-neck-2.jpeg`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Alice Dress13.png`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/v-neck-3.jpeg`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
@@ -37,31 +37,31 @@ function InvertedTriangle() {
       </Grid>
       <Grid item xs={12}>
         <Typography>
-          Dengan desain yang longgar, pakaian ini bisa membantu menyeimbangkan
-          proporsi antara bagian atas dan bawah tubuh.
+          Pilih atasan dengan potongan leher V untuk membantu memanjangkan
+          penampilan leher dan memberikan keseimbangan pada bagian atas tubuh.
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <Typography variant="h6">2. Blazer Crop</Typography>
+        <Typography variant="h6">2. Pleated Skirt</Typography>
       </Grid>
       <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Blazer Crop11.png`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/pleated-1.jpeg`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Blazer Crop12.png`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/pleated-2.jpeg`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Blazer Crop13.png`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/pleated-3.jpeg`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
@@ -69,8 +69,9 @@ function InvertedTriangle() {
       </Grid>
       <Grid item xs={12}>
         <Typography>
-          Jaket crop bisa membantu untuk tidak menambah volume berlebih di
-          bagian atas tubuh, menjaga keseimbangan dengan bagian bawah tubuh.
+          pilihan yang bagus untuk bentuk tubuh inverted triangle karena dapat
+          membantu menciptakan keseimbangan visual antara bahu yang lebar dan
+          pinggul yang lebih sempit.
         </Typography>
       </Grid>
       <Grid item xs={12}>
@@ -81,21 +82,21 @@ function InvertedTriangle() {
       <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Jumpsuit dengan Bawahan Wide-Leg11.png`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/fit-flare-1.jpeg`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Jumpsuit dengan Bawahan Wide-Leg12.png`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/fit-flare-2.jpeg`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Jumpsuit dengan Bawahan Wide-Leg13.png`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/fit-flare-3.jpeg`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
@@ -106,39 +107,6 @@ function InvertedTriangle() {
           Jumpsuit dengan bawahan wide-leg dapat membantu menciptakan
           keseimbangan visual antara bahu yang lebar dan pinggul yang lebih
           sempit.
-        </Typography>
-      </Grid>
-      <Grid item xs={12}>
-        <Typography variant="h6">4. Mairaa Sabrina Dress</Typography>
-      </Grid>
-      <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
-        <Grid item xs={4}>
-          <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Sabrina Dress11.png`}
-            alt=""
-            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
-          />
-        </Grid>
-        <Grid item xs={4}>
-          <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Sabrina Dress12.png`}
-            alt=""
-            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
-          />
-        </Grid>
-        <Grid item xs={4}>
-          <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/Sabrina Dress13.png`}
-            alt=""
-            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
-          />
-        </Grid>
-      </Grid>
-      <Grid item xs={12}>
-        <Typography>
-          Detail pleats dan off-shoulder pada gaun ini dapat menciptakan ilusi
-          lekukan pada tubuh yang cenderung lurus. Tambahan detail di bagian
-          atas membantu menambah dimensi pada tubuh.
         </Typography>
       </Grid>
     </Grid>

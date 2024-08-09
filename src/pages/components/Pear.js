@@ -8,26 +8,26 @@ function Pear() {
         <Typography variant="h5">Rekomendasi Pear Body Shape</Typography>
       </Grid>
       <Grid item xs={12}>
-        <Typography variant="h6">1. Puffy Sleeves</Typography>
+        <Typography variant="h6">1. Mairaa Puffy Sleeves</Typography>
       </Grid>
       <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/puffy-sleeves-1.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Puffy Sleeves11.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/puffy-sleeves-2.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Puffy Sleeves12.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/puffy-sleeves-3.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Puffy Sleeves13.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
@@ -41,26 +41,26 @@ function Pear() {
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <Typography variant="h6">2. Wide-Leg Trousers</Typography>
+        <Typography variant="h6">2. Mairaa Wide-Leg Trousers</Typography>
       </Grid>
       <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/wide-leg-trousers-1.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Wide-Leg Trousers11.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/wide-leg-trousers-2.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Wide-Leg Trousers12.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/wide-leg-trousers-3.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Wide-Leg Trousers13.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
@@ -73,26 +73,26 @@ function Pear() {
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <Typography variant="h6">3. Fit-and-Flare Dress</Typography>
+        <Typography variant="h6">3. Zoey Knitt Dress</Typography>
       </Grid>
       <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/fit-flare-1.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Zoey Knitt Dress11.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/fit-flare-2.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Zoey Knitt Dress12.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
         </Grid>
         <Grid item xs={4}>
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/outfit/fit-flare-3.jpeg`}
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Zoey Knitt Dress13.png`}
             alt=""
             style={{ width: "100%", height: "auto", maxWidth: "100%" }}
           />
@@ -100,10 +100,75 @@ function Pear() {
       </Grid>
       <Grid item xs={12}>
         <Typography>
-          Dress dengan potongan fit-and-flare atau A-line sangat cocok untuk
-          bentuk tubuh pear. Potongan ini akan menonjolkan pinggang Anda dan
-          secara perlahan melebar ke bagian bawah, menciptakan proporsi yang
-          lebih seimbang.
+          Gaun ini bisa membantu menyeimbangkan proporsi tubuh dengan menutupi
+          bagian bawah tubuh dan menonjolkan bagian atas.
+        </Typography>
+      </Grid>
+      <Grid item xs={12}>
+        <Typography variant="h6">4. Mairaa Sabrina Dress</Typography>
+      </Grid>
+      <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Sabrina Dress11.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Sabrina Dress12.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Sabrina Dress13.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+      </Grid>
+      <Grid item xs={12}>
+        <Typography>
+          Meski bentuk tubuh apel sering disarankan untuk mengenakan pakaian
+          yang menonjolkan kaki atau memperpanjang torso, gaun ini dapat bekerja
+          dengan baik asalkan bagian tengah gaun tidak terlalu ketat dan bagian
+          bawah cukup longgar untuk memberikan kenyamanan.
+        </Typography>
+      </Grid>
+      <Grid item xs={12}>
+        <Typography variant="h6">5. Blazer Crop</Typography>
+      </Grid>
+      <Grid container spacing={2} sx={{ m: 0, p: 0 }}>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Blazer Crop14.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Blazer Crop11.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+        <Grid item xs={4}>
+          <img
+            src={`${process.env.REACT_APP_BASE_URL}/outfit/Blazer Crop12.png`}
+            alt=""
+            style={{ width: "100%", height: "auto", maxWidth: "100%" }}
+          />
+        </Grid>
+      </Grid>
+      <Grid item xs={12}>
+        <Typography>
+          Jaket crop dapat membantu menyeimbangkan proporsi antara bahu dan
+          pinggul, membuat bahu terlihat lebih lebar dan menyamarkan ukuran
+          pinggul.
         </Typography>
       </Grid>
     </Grid>
